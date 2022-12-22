@@ -3,7 +3,7 @@ const fileUpload = require('express-fileupload')
 
 const app = express(); 
 
-app.set("view engine", "ejs");
+app.set("view engine", "ejs"); 
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
