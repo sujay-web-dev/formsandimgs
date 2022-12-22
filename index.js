@@ -2,6 +2,7 @@ const express = require('express');
 
 const app = express();
 
+
 app.get("/myget",(req,res) => {
     console.log(req.body);
 
