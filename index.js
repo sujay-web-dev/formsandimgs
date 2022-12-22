@@ -1,7 +1,7 @@
 const express = require('express');
 const fileUpload = require('express-fileupload')
 
-const app = express();
+const app = express(); 
 
 app.set("view engine", "ejs");
 
